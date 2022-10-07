@@ -10,74 +10,190 @@
         integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css">
 
     <title>Portafolio_Jorge_Aguilar</title>
 </head>
 
 <body>
-    <nav class="navbar bg-light">
-        <div class="container-fluid">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
             <a class="navbar-brand" href="#">
-                JORGE AGUILAR FUENTEALBA
+                <p class="display-6 fw-bold my-2">Jorge Aguilar Fuentealba</p>
             </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de mi</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Trabajos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contacto</a>
+                    </li>
+
+                </ul>
+
+            </div>
         </div>
     </nav>
-    <div class="container text-center">
-        <div class="row row-cols-2">
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/imgs/cv.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Desafio CV</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="https://github.com/jeaf89/desafiocv" class="btn btn-primary">Go somewhere</a>
-                    </div>
+    <section id="Hero-Section" class="text-light text-end py-5 mt-5">
+        <div class="container">
+            <div class="ms-auto col-12 col-md-7 ">
+                <h1 class="display-1 fw-bold my-5">
+                    Comidas del fin <br> del mundo
+                </h1>
+                <p class="my-5">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, accusamus iusto quibusdam
+                    dignissimos labore sequi. Cupiditate reiciendis eius dolore, illum adipisci harum voluptas iste
+                    mollitia inventore provident labore voluptatum nemo.
+                </p>
+                <div class="mb-5 pb-5">
+                    <button class="btn btn-lg btn-outline-info text-light me-4">Trabajos</button>
+                    <button class="btn btn-lg btn-info text-light">Contacto</button>
                 </div>
             </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/imgs/CSS.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Desafio CSS</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="https://github.com/jeaf89/desafiocss" class="btn btn-primary">Go somewhere</a>
+        </div>
+    </section>
+    <section id="Acerca-de-mi" class="container text-center my-5">
+        <h2 class="display-3 fw-bold my-4">Acerca de mi</h2>
+        <p class="my-4">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio quisquam distinctio, odit laborum aliquam
+            earum itaque cum sequi, dolorem optio vol
+        </p>
+        <div class="row">
+            <div class="col-12 col-md-4">
+                <i class="fas fa-camera fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Fotógrafa de comida</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="fas fa-bullhorn fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Crítica culinaria</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+            <div class="col-12 col-md-4">
+                <i class="far fa-map fa-3x my-3"></i>
+                <h3 class="my-3 fw-bold">Bloggera de viajes</h3>
+                <p class="my-3">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+                    ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="Mis-trabajos" class="my-5 p-5 bg-dark">
+        <h2 class="display-4 fw-bold text-center text-light mb-3">Mis trabajos</h2>
+        <div class="container text-center">
+            <div class="row row-cols-2">
+                <div class="row">
+                    <div class="card" style="width: 33rem;">
+                        <img src="assets/imgs/cv.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Desafio CV</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="https://github.com/jeaf89/desafiocv" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/imgs/bootstrap.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Desafio Bootstrap</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="https://github.com/jeaf89/desafiobootstrap" class="btn btn-primary">Go somewhere</a>
+                <div class="row">
+                    <div class="card" style="width: 33rem;">
+                        <img src="assets/imgs/CSS.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Desafio CSS</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="https://github.com/jeaf89/desafiocss" class="btn btn-primary">Go somewhere</a>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div class="col">
-                <div class="card" style="width: 18rem;">
-                    <img src="assets/imgs/posicionamientoCSS.JPG" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Desafio Posicionamiento CSS</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
-                            the card's content.</p>
-                        <a href="https://github.com/jeaf89/desafioPosicionamientoCSS" class="btn btn-primary">Go somewhere</a>
+                <div class="row">
+                    <div class="card" style="width: 33rem;">
+                        <img src="assets/imgs/bootstrap.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Desafio Bootstrap</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="https://github.com/jeaf89/desafiobootstrap" class="btn btn-primary">Go
+                                somewhere</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="card" style="width: 33rem;">
+                        <img src="assets/imgs/posicionamientoCSS.JPG" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Desafio Posicionamiento CSS</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of
+                                the card's content.</p>
+                            <a href="https://github.com/jeaf89/desafioPosicionamientoCSS" class="btn btn-primary">Go
+                                somewhere</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-    </div>
-    <div class="mb-3">
-        <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
-        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-    </div>
+    </section>
+    <section id="Contacto" class="container my-5">
+
+        <h2 class="display-4 fw-bold text-center my-4">Contáctame</h2>
+
+        <p class="text-center my-4 d-none d-md-block">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            Doloribus
+            sapiente, autem delectus totam expedita
+            animi corporis dolorem qui magnam, aspernatur officiis quasi culpa tempora est commodi. Voluptate beatae
+            tempora quaerat?</p>
+
+        <form>
+
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Nombre</label>
+                <input class="form-control" placeholder="Nombre">
+            </div>
+
+            <div class="form-group mb-4">
+                <label class="mb-2">Correo electrónico</label>
+                <input class="form-control" placeholder="Correo electrónico" />
+            </div>
+
+
+            <div class="form-group">
+                <label class="mb-2">Mensaje</label>
+                <textarea class="form-control" placeholder="Escribe aquí tu mensaje"></textarea>
+            </div>
+
+            <div class="my-3 text-end">
+                <button class="btn btn-info text-light">Enviar</button>
+            </div>
+
+
+
+        </form>
+
+    </section>
 
     <footer class="bg-dark text-center text-white">
 
